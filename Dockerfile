@@ -1,4 +1,3 @@
-FROM dawn001/z_mirror:railway
-WORKDIR /usr/src/app
+FROM nanthakps/wz:railway
 COPY . .
 CMD ["bash", "start.sh"]
